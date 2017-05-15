@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wpposts.dao.PostlinksDao">
+    <select id="queryAll" resultType="PostLink" >
+        select link_id,link_name, create_time
+        from post_links
+        order by create_time desc
+        limit #{offset},#{limit}
+    </select>
+</mapper>
