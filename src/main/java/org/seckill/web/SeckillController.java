@@ -22,7 +22,7 @@ import java.util.List;
  * Created by ruixj on 17-5-14.
  */
 @Controller
-@RequestMapping("/seckill")
+//@RequestMapping("/seckill")
 public class SeckillController {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -57,7 +57,9 @@ public class SeckillController {
         return "detail";
     }
 
-    @RequestMapping(value="/{seckillId}/exposer",method=RequestMethod.POST,produces = {"application/json;charset=UTF-8"})
+    @RequestMapping(value="/{seckillId}/exposer",
+    		        method=RequestMethod.POST,
+    		        produces = {"application/json;charset=UTF-8"})
     @ResponseBody
     public SeckillResult<Exposer> exposer(Long seckillId)
     {

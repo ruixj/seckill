@@ -7,14 +7,20 @@ import java.util.Date;
  */
 public class PostLink {
     private long   linkId;
-    private String linkName;
+    private String title;
+    public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	private String linkName;
+    
     private Date createTime;
 
-    public PostLink(long linkId, String linkName, Date createTime) {
-        this.linkId = linkId;
-        this.linkName = linkName;
-        this.createTime = createTime;
-    }
+ 
 
     public Date getCreateTime() {
         return createTime;
@@ -40,12 +46,11 @@ public class PostLink {
         this.linkName = linkName;
     }
 
-    @Override
-    public String toString() {
-        return "PostLink{" +
-                "linkId=" + linkId +
-                ", linkName='" + linkName + '\'' +
-                ", createTime=" + createTime +
-                '}';
-    }
+	@Override
+	public String toString() {
+		return "PostLink [linkId=" + linkId + ", title=" + title
+				+ ", linkName=" + linkName + ", createTime=" + createTime + "]";
+	}
+
+ 
 }

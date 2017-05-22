@@ -2,6 +2,7 @@
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/exception/RepeatKillException.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/dto/Exposer.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/wpposts/web/PostLinkController.java
+/home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/wpposts/dto/PostLinkPage.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/wpposts/service/impl/PostLinkServiceImpl.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/service/SeckillService.java
@@ -13,7 +14,9 @@
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/wpposts/entity/PostLink.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/dto/SeckillResult.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/web/SeckillController.java
+/home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/wpposts/dto/ResultData.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/exception/SeckillException.java
+/home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/wpposts/dto/Result.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/enums/SeckillStatEnum.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/exception/SeckillCloseException.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/dto/SeckillExecution.java

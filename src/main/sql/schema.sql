@@ -30,10 +30,15 @@ key idx_create_time(create_time)
 
 CREATE TABLE post_links(
 `link_id` bigint NOT NULL AUTO_INCREMENT COMMENT 'id',
+`title` varchar(1000) NOT NULL COMMENT '稿件名称',
 `link_name` varchar(1000) NOT NULL COMMENT '投稿链接',
 `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
 PRIMARY KEY(link_id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='投稿链接表';
+
+CREATE DATABASE seckill;
+use seckill;
+
 
 insert into post_links( link_name )
 values

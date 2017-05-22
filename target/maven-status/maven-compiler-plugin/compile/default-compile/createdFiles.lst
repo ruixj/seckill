@@ -13,7 +13,10 @@ org/seckill/exception/RepeatKillException.class
 org/seckill/dao/SeckillDao.class
 org/seckill/exception/SeckillException.class
 org/seckill/dto/SeckillResult.class
+org/wpposts/dto/PostLinkPage.class
 org/wpposts/entity/PostLink.class
 org/seckill/enums/SeckillStatEnum.class
 org/seckill/dao/SuccessKilledDao.class
+org/wpposts/dto/ResultData.class
+org/wpposts/dto/Result.class
 org/wpposts/service/impl/PostLinkServiceImpl.class
