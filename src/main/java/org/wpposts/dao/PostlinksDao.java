@@ -10,4 +10,5 @@ import java.util.List;
  */
 public interface PostlinksDao {
     List<PostLink> queryAll(@Param("offset")int offset, @Param("limit")int limit);
+    int insertPostLink(PostLink postlink);
 }

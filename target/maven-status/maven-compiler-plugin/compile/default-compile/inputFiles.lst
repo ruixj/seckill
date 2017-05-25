@@ -15,6 +15,7 @@
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/dto/SeckillResult.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/web/SeckillController.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/wpposts/dto/ResultData.java
+/home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/wpposts/dto/LinkInsertResult.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/exception/SeckillException.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/wpposts/dto/Result.java
 /home/ruixj/Development/spring/springprojects/seckill/src/main/java/org/seckill/enums/SeckillStatEnum.java

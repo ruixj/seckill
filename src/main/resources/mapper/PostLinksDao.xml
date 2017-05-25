@@ -9,4 +9,9 @@
         order by create_time asc
         limit #{offset},#{limit}
     </select>
+    
+    <insert id="insertPostLink" parameterType="PostLink" useGeneratedKeys="true" keyProperty="linkId">
+        insert ignore into post_links(title,link_name)
+        values(#{title},#{linkName})
+    </insert>
 </mapper>

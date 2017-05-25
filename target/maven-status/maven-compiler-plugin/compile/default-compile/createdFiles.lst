@@ -20,3 +20,4 @@ org/seckill/dao/SuccessKilledDao.class
 org/wpposts/dto/ResultData.class
 org/wpposts/dto/Result.class
 org/wpposts/service/impl/PostLinkServiceImpl.class
+org/wpposts/dto/LinkInsertResult.class

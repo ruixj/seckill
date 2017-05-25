@@ -19,7 +19,7 @@ public class PostLinkPage {
 	public PostLinkPage(String success, List<PostLink> plLst) {
 		super();
 		this.result = new Result(success,"");
-		this.data = new ResultData(plLst);
+		this.data   = new ResultData(plLst);
  
 	}
 
